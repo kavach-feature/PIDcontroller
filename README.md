@@ -3,14 +3,14 @@ Self-Driving Car Engineer Nanodegree Program
 
 The project inolves two simple routines - UpdateError and TotalError
 
-UpdateError - Computes the proportional error, Differential error and Integral error based on the current CTE.
+1. UpdateError - Computes the proportional error, Differential error and Integral error based on the current CTE.
 
-TotalError - Computes the total error based on the assigned Kp, Ki and Kd values.
+2. TotalError - Computes the total error based on the assigned Kp, Ki and Kd values.
 
 # Importance of P, I and D in the simulator
-P -It sets the steering angle in proportion to CTE with a proportional factor tau.
-I- It is the integral or sum of error to deal with inherent bias existing in the car like steering drift.
-D- It is the differential component of the controller which helps to take temporal derivative of error.
+1. P -It sets the steering angle in proportion to CTE with a proportional factor tau.
+2. I- It is the integral or sum of error to deal with inherent bias existing in the car like steering drift.
+3. D- It is the differential component of the controller which helps to take temporal derivative of error.
 
 
 The goal of the project is to ensure CTE is always small and ensure proper steering so that the car is not driving outside the lanes or during curves.
