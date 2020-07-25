@@ -36,12 +36,13 @@ void PID::UpdateError(double cte) {
   prev_cte=cte; */
 
     d_error = cte - p_error;
+
     p_error = cte;
 
 
     //Updating the Integral error
     i_error += cte;
-
+    std::cout<<"d_error"<<d_error<<"  i_error "<<i_error<<std::endl;
 
 
 }
