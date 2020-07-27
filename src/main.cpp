@@ -41,7 +41,6 @@ int main() {
 
 
 //Twiddle implementation
-  std::ofstream debug_file;
   bool twiddle = false;
   double p[3]= {0.049,0.00028,1.63};
   double dp[3]= {0.01,0.0001,0.1};
@@ -59,7 +58,6 @@ int main() {
   double best_p[3] = {p[0],p[1],p[2]};
 
 
-  //debug_file.open("debug.txt",std::ofstream::out);
   if (twiddle  == true)
   {
     pid.Init(p[0],p[1],p[2]);
